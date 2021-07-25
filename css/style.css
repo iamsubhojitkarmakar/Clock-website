@@ -1,17 +1,42 @@
+body {
+    background-image: url("../media/background.jpg");
+    background-size: 100%;
+}
+
 .container-fluid{
     color: black;
-    background-color: rgb(163, 163, 163);
     height:500px;
     text-align: center;
     
 }
 .row{
     box-sizing: border-box;
+    color: saddlebrown;
     height: 50%;
     text-align: center;
-    color: white ;
-    margin: 10px;
+
 }
 #heading{
     font-size: 26px;
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+
+#time,#timeUTC,#local,#utc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#local,#utc{
+    box-sizing: border-box;
+    height: 200px;
+    padding: 20px;
+    border: 4px solid black;
+    margin: 4%;
+    text-overflow: ellipsis;
+    font-weight: 800;
+}
+
+
