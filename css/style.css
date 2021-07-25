@@ -1,0 +1,17 @@
+.container-fluid{
+    color: black;
+    background-color: rgb(163, 163, 163);
+    height:500px;
+    text-align: center;
+    
+}
+.row{
+    box-sizing: border-box;
+    height: 50%;
+    text-align: center;
+    color: white ;
+    margin: 10px;
+}
+#heading{
+    font-size: 26px;
+}
